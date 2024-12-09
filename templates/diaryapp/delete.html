@@ -1,0 +1,6 @@
+<form action="" method="POST">{% csrf_token %}
+    <input type="submit" value="削除します">
+</form>
+<p>日付： {{ object.date }}</p>
+<p>タイトル： {{ object.title }}</p>
+<p>本文： {{ object.text }}</p>
